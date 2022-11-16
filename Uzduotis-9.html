@@ -1,159 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigacija</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet">
     <style>
-       html{
-        scroll-behavior: smooth;
-       }
-*{
-    font-family: 'Roboto Slab', serif;
-}
-        .section{
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            font-family: 'Roboto Slab', serif;
+        }
+
+        nav {
+            margin: 0;
+        }
+
+        .section {
             width: 100%;
             height: 800px;
+            /* height: 100vh; */
             /* margin: -5px; */
             background-size: cover;
             padding: 10px;
+            font-style: bold;
         }
-        
-    
-        #first{
+
+
+        #first {
             background-color: #c800ff;
             text-align: left;
-            font-style: bold;
+            /* font-style: bold; */
             color: white;
-            
+
         }
-        
-        #second{
+
+        #second {
             background-color: aqua;
             text-align: right;
-            font-style: bold;
+            /* font-style: bold; */
             color: #c800ff;
-            
+
         }
-        #third{
+
+        #third {
             background-color: yellow;
             text-align: center;
-            font-style: bold;
+            /* font-style: bold; */
         }
-        #fourth{
+
+        #fourth {
             background-color: grey;
             text-align: left;
-            font-style: bold;
+            /* font-style: bold; */
             color: white;
         }
-        #fifth{
+
+        #fifth {
             background-color: sandybrown;
             text-align: left;
             color: brown;
-            
+
         }
-        #sixth{
+
+        #sixth {
             background-color: rgb(218, 231, 29);
             text-align: center;
             color: black;
         }
-        #seventh{
+
+        #seventh {
             background-color: green;
             text-align: center;
             color: gold;
         }
-        #eighth{
+
+        #eighth {
             background-color: red;
             text-align: center;
             color: green;
         }
-        .rusys
-         li{
+
+        .rusys li {
             text-align: center;
             counter-reset: white;
             font-style: italic;
-            list-style: none;    
+            list-style: none;
         }
-       
-    
-        .species
-        li{
+
+
+        .species li {
             text-align: center;
             font-style: italic;
             list-style-type: none;
         }
-        .jura
-        li{
+
+        .jura li {
             text-align: left;
             color: blue;
         }
-        a{
+
+        a {
             color: green;
             text-decoration: none;
             list-style-type: square;
         }
-        nav {
-            list-style-type: none;
+
+        nav ul {
+            text-decoration: none;
             background-color: rgb(37, 46, 43);
             padding: 10px;
             width: 100%;
             counter-reset: white;
+            display: block;
         }
-        a :hover{
+
+        a :hover {
             background-color: rgb(0, 140, 255);
         }
-        div{
+
+        div {
             text-align: center;
             padding: 50px;
-          }
-
+        }
     </style>
 </head>
+
 <body>
- <nav>  
- <ul>
-    <li><a href="#first">Gėlės</a></li>
-    <li><a href="#second">Šventės</a></li>
-    <li><a href="#third">Atostogos</a></li>
-    <li><a href="#fourth">Skrydžiai</a></li>
-    <li><a href="#fifth">Gyvūnai</a></li>
-    <li><a href="#sixth">Laisvalaikis</a></li>
-    <li><a href="#seventh">Eukariotai</a></li>
-    <li><a href="#eighth">Vabzdžiai</a></li>
- </ul>   
-</nav> 
- <div id="first" class="section">
-    <h2 style="color: white;">Vedrynas</h2>
-    <img src="https://gelesmanufaktura.lt/wp-content/uploads/2017/02/Ranunculus-Vedrynas-6.jpg" alt="Vedrynas"; width="300px";>
-    <p>Vėdrynas (Ranunculus)- vėdryninių (Ranunculaceae) šeimos augalų gentis. Pavadinimas iš lot. <i>rana</i> - varlė, ranunculus – varliūkštis (keletas rūšių auga stovinčiame, varlių gyvenamajame vandenyje). Tai vienamečiai arba žoliniai augalai su pirštiškai ar plunksniškai skaldytais lapais. Žiedai geltoni, pavieniai arba po keletą susibūrę į žiedynus. Kuokelių ir piestelių daug. Vaisiai - riešutėliai. Augalus apdulkina vabzdžiai. Visos vėdryno rūšys yra nuodingos.</p>
-    <h3 style="font-style: italic; text-align: center; color: white;">Vėdrynų rūšys</h3>
-    <ul class="rusys">
-        <li>Pavasarinis švitriešis (Ranunculus ficaria)</li>
-        <li>Aitrusis vėdrynas (Ranunculus acris)</li>
-        <li>Dirvinis vėdrynas (Ranunculus arvensis)</li>
-        <li>Auksakuodis vėdrynas (Ranunculus auricomus)</li>
-        <li>Gumbuotasis vėdrynas (Ranunculus bulbosus)</li>
-        <li>Kašubinis vėdrynas (Ranunculus cassubicus)</li>
-        <li>Dedervinis vėdrynas (Ranunculus flammula)</li>
-        <li>Vilnotasis vėdrynas (Ranunculus lanuginosus)</li>
-        <li>Pelkinis vėdrynas (Ranunculus lingua)</li>
-        <li>Vagotasis vėdrynas (Ranunculus polyanthemus)</li>
-    </ul>
-</div>
-<div id="second" class="section">
-    <h2 >Drugeliai</h2>
-    <img src="gyvas-drugelis.jpg" alt="Drugelis"; width="300px">
-<p> <i><b>Morpho peleides</i></b>, the Peleides blue morpho, common morpho or the emperor is an iridescent tropical butterfly found in Mexico, Central America, northern South America, Paraguay and Trinidad. Most authorities believe that peleides is a subspecies of Morpho helenor. 
-        The brilliant blue color in the butterfly's wings is caused by the diffraction of the light from millions of tiny scales on its wings. It uses this to frighten away predators, by flashing its wings rapidly. 
-        The wingspan of the blue morpho butterfly ranges from 7.5–20 cm (3.0–7.9 in). The entire blue morpho butterfly life cycle, from egg to adult is only 115 days. This butterfly undergoes metamorphosis from larva to butterfly. The larva eats plant leaves before spinning a chrysalis.
-         Flower nectar, which is available later in the year, is used by the butterfly. A recent study also discovered that during transformation, the butterfly substantially reduces its body weight and body fat. Known larval food plants are Leguminosae <i style="color: red;">(Arachis hypogaea, Dioclea wilsonii, Inga species, Lonchocarpus, Machaerium cobanense, Machaerium salvadorense, Machaerium seemannii, Medicago sativa, Mucuna mutisiana, Pithecellobium, Pterocarpus rohrii, Mucuna urens)</i> and Bignoniaceae (Paragonia pyramidata). 
-         Morpho peleides drinks the juices from rotting fruits for food. Its favorites in captivity are mango, kiwi, and lychee. Morpho peleides butterflies live in the rainforests of South America, and can be found in Mexico and Central America.
-        The larvae of Morpho peleides butterflies are occasional cannibals. These caterpillars are red brown with patches of bright green.</p>
-        <h3 style="color: #c800ff;">Other butterflies species</h3>
+    <nav>
+        <ul>
+            <li><a href="#first">Gėlės</a></li>
+            <li><a href="#second">Šventės</a></li>
+            <li><a href="#third">Atostogos</a></li>
+            <li><a href="#fourth">Skrydžiai</a></li>
+            <li><a href="#fifth">Gyvūnai</a></li>
+            <li><a href="#sixth">Laisvalaikis</a></li>
+            <li><a href="#seventh">Eukariotai</a></li>
+            <li><a href="#eighth">Vabzdžiai</a></li>
+        </ul>
+    </nav>
+    <div id="first" class="section">
+        <h2 style="color: white;">Vedrynas</h2>
+        <img src="https://gelesmanufaktura.lt/wp-content/uploads/2017/02/Ranunculus-Vedrynas-6.jpg" alt="Vedrynas" ;
+            width="300px" ;>
+        <p>Vėdrynas (Ranunculus)- vėdryninių (Ranunculaceae) šeimos augalų gentis. Pavadinimas iš lot. <i>rana</i> -
+            varlė, ranunculus – varliūkštis (keletas rūšių auga stovinčiame, varlių gyvenamajame vandenyje). Tai
+            vienamečiai arba žoliniai augalai su pirštiškai ar plunksniškai skaldytais lapais. Žiedai geltoni, pavieniai
+            arba po keletą susibūrę į žiedynus. Kuokelių ir piestelių daug. Vaisiai - riešutėliai. Augalus apdulkina
+            vabzdžiai. Visos vėdryno rūšys yra nuodingos.</p>
+        <h3 style="font-style: italic; text-align: center; color: white;">Vėdrynų rūšys</h3>
+        <ul class="rusys">
+            <li>Pavasarinis švitriešis (Ranunculus ficaria)</li>
+            <li>Aitrusis vėdrynas (Ranunculus acris)</li>
+            <li>Dirvinis vėdrynas (Ranunculus arvensis)</li>
+            <li>Auksakuodis vėdrynas (Ranunculus auricomus)</li>
+            <li>Gumbuotasis vėdrynas (Ranunculus bulbosus)</li>
+            <li>Kašubinis vėdrynas (Ranunculus cassubicus)</li>
+            <li>Dedervinis vėdrynas (Ranunculus flammula)</li>
+            <li>Vilnotasis vėdrynas (Ranunculus lanuginosus)</li>
+            <li>Pelkinis vėdrynas (Ranunculus lingua)</li>
+            <li>Vagotasis vėdrynas (Ranunculus polyanthemus)</li>
+        </ul>
+    </div>
+    <div id="second" class="section">
+        <h2>Drugeliai</h2>
+        <img src="gyvas-drugelis.jpg" alt="Drugelis" ; width="300px">
+        <p> <i><b>Morpho peleides</i></b>, the Peleides blue morpho, common morpho or the emperor is an iridescent
+            tropical butterfly found in Mexico, Central America, northern South America, Paraguay and Trinidad. Most
+            authorities believe that peleides is a subspecies of Morpho helenor.
+            The brilliant blue color in the butterfly's wings is caused by the diffraction of the light from millions of
+            tiny scales on its wings. It uses this to frighten away predators, by flashing its wings rapidly.
+            The wingspan of the blue morpho butterfly ranges from 7.5–20 cm (3.0–7.9 in). The entire blue morpho
+            butterfly life cycle, from egg to adult is only 115 days. This butterfly undergoes metamorphosis from larva
+            to butterfly. The larva eats plant leaves before spinning a chrysalis.
+            Flower nectar, which is available later in the year, is used by the butterfly. A recent study also
+            discovered that during transformation, the butterfly substantially reduces its body weight and body fat.
+            Known larval food plants are Leguminosae <i style="color: red;">(Arachis hypogaea, Dioclea wilsonii, Inga
+                species, Lonchocarpus, Machaerium cobanense, Machaerium salvadorense, Machaerium seemannii, Medicago
+                sativa, Mucuna mutisiana, Pithecellobium, Pterocarpus rohrii, Mucuna urens)</i> and Bignoniaceae
+            (Paragonia pyramidata).
+            Morpho peleides drinks the juices from rotting fruits for food. Its favorites in captivity are mango, kiwi,
+            and lychee. Morpho peleides butterflies live in the rainforests of South America, and can be found in Mexico
+            and Central America.
+            The larvae of Morpho peleides butterflies are occasional cannibals. These caterpillars are red brown with
+            patches of bright green.</p>
+        <h3 style="color: #c800ff; text-align: center;">Other butterflies species</h3>
         <ul class="species">
             <li>Atlas Moth</li>
             <li>Monarch</li>
@@ -166,13 +207,17 @@
             <li>Rice Paper</li>
             <li>Wood Nymph</li>
         </ul>
-</div>
-<div id="third" class="section">
-    <h2 style="color: blue">Jūra</h2>
-    <img src="jura.jpeg" alt="Jūra"; width="300px">
-    <p style="color: blue;">Jūra - didelis sūraus vandens telkinys, turintis sąlytį su vandenynu arba didelis sūrus ežeras. Vandens telkinių pavadinimas jūra yra sąlyginis, kadangi kai kurie ežerai (pvz., Negyvoji jūra) ar įlankos (pvz., Azovo jūra) vadinami jūromis, nors yra didesnių už juos, vadinamų ežerais (Tanganika) ar įlankomis (Gvinėjos įlanka). Kartais jūros terminas vartojamas kaip vandenyno sinonimas („už jūrų marių“).</p>
-    <h3 style="color: blue; text-align: left;">Ramiojo vandenyno jūros</h3>
-    <ol class="jura">
+    </div>
+    <div id="third" class="section">
+        <h2 style="color: blue">Jūra</h2>
+        <img src="jura.jpeg" alt="Jūra" ; width="300px">
+        <p style="color: blue;">Jūra - didelis sūraus vandens telkinys, turintis sąlytį su vandenynu arba didelis sūrus
+            ežeras. Vandens telkinių pavadinimas jūra yra sąlyginis, kadangi kai kurie ežerai (pvz., Negyvoji jūra) ar
+            įlankos (pvz., Azovo jūra) vadinami jūromis, nors yra didesnių už juos, vadinamų ežerais (Tanganika) ar
+            įlankomis (Gvinėjos įlanka). Kartais jūros terminas vartojamas kaip vandenyno sinonimas („už jūrų marių“).
+        </p>
+        <h3 style="color: blue; text-align: left;">Ramiojo vandenyno jūros</h3>
+        <ol class="jura">
             <li>Arafūros jūra</li>
             <li>Bandos jūra</li>
             <li>Beringo jūra</li>
@@ -183,33 +228,54 @@
             <li>Japonijos jūra</li>
             <li>Koralų jūra </li>
             <li>Ochotsko jūra</li>
-    </ol>
-</div>
-<div id="fourth" class="section">
-<h2 >Lėktuvas</h2>
-<img src="lektuvas.jpg" alt="Lėktuvas"; width="300px">
-<p >Lėktuvas-sunkesnis už orą orlaivis, turintis variklį ir keliamas sparnų. Lėktuvams priskiriami – viensparnis lėktuvas, dvisparnis lėktuvas (biplanas), trisparnis lėktuvas (triplanas). Retais atvejais pasitaiko specifinių konstrukcijų, tokių kaip skrendantis sparnas ar sparnų neturintis skrendantis kūnas. Lėktuvas, skirtas keleiviams gabenti, vadinamas oro laineriu arba keleiviniu lėktuvu. Kariniai ir civiliniai lėktuvai gali būti įvairios paskirties: keleiviniai, krovininiai, mokomieji, specialiosios paskirties (naudojami stichinių nelaimių atveju, gaisrams gesinti, ligoniams ar sužeistiesiems gabenti, geologinės žvalgybos). Civiliniai lėktuvai gali būti sportiniai, žemės ūkio, eksperimentiniai.</p>
-</div>
-<div id="fifth" class="section">
-    <h2>Šuo</h2>
-    <img src="suo.jpeg" alt="Šuo"; width="200px">
-    <p>Šuo – žmogaus prijaukintas gyvūnas jau 14 000 metų. Ir nors su šiuo keturkoju augintiniu bendraujame jau seniai, visada rasime faktų, kuriuos būtų įdomu sužinoti apie mūsų keturkojus augintinius.</p>
-</div>
-<div id="sixth" class="section">
-    <h2>Kalnai</h2>
-    <img src="austrijos-kalnai.jpg" alt="Kalnai"; width="300px">
-    <p>Kalnų slidinėjimas - tiek poilsinis, tiek ir sportinis užsiėmimas, čiuožiant nuo snieguotų kalvų su slidėmis, pritvirtintomis prie kojų. Kalnų slidinėjimo pradžia – 1889 m. Alpių kalnuose. Šis sportas yra populiarus, ypač tose šalyse, kur yra kalnų, sniego, išvystyta slidinėjimo turizmo infrastruktūra. Kalnų slidinėjimo kurortų yra Europos, Šiaurės Amerikos kalnuose, taip pat jų yra ir Australijoje, Naujojoje Zelandijoje, Pietų Amerikos Andų bei Azijos kalnuose.</p>
-</div>
-<div id="seventh" class="section">
-    <h2>Grybai</h2>
-    <img src="grybai.jpg" alt="Grybai"; width="300px">
-    <p>Grybai <i>(Fungi)</i> - nėra nei augalai, nei gyvūnai, bet turi ir vienų, ir kitų organizmų požymių. Jie nuėjo savitą evoliucijos kelią ir suformavo tik jiems būdingą gyvenimo būdą. Grybai eukariotiniai ir heterotrofiniai gyvų organizmų grupė, kurių somatinį kūną sudaro grybiena (micelis) arba pavienė ląstelė. Grybiena sudaryta iš šakotų vamzdelių, kurie vadinami hifais[1]. Grybuose nėra chlorofilo, jie negali neorganinių rūgščių paversti organinėmis, kaip augalai. Vykstant medžiagų apytakos procesams pagamina šlapalą, o jų glikogenas yra krakmolo tipo - tai būdinga tik gyvūnams ar kitiems gyviesiems organizmams. Grybai minta absorbcijos būdu, o dauginasi sporomis.</p>
-</div>
-<div id="eighth" class="section">
-    <h2>Kalėdos</h2>
-    <img src="kaledos.jpg" alt="Kalėdos"; width="300px">
-    <p> Kalėdos arba šventos Kalėdos – senas šaknis turinti žiemos saulėgrįžos, saulės sugrįžimo šventė. Saulės sugrįžimo šventės sparčiai formavosi atsiradus žemdirbystei ir gyvulininkystei. Saulės sugrįžtant būdavo pradedama laukti lapkričio gale, o gruodžio pabaigoje, Saulei „apsigręžus“ – t. y. įvykus solsticijai, atliekamos apeigos, trukdavusios porą savaičių.</p>
-</div>
+        </ol>
+    </div>
+    <div id="fourth" class="section">
+        <h2>Lėktuvas</h2>
+        <img src="lektuvas.jpg" alt="Lėktuvas" ; width="300px">
+        <p>Lėktuvas-sunkesnis už orą orlaivis, turintis variklį ir keliamas sparnų. Lėktuvams priskiriami – viensparnis
+            lėktuvas, dvisparnis lėktuvas (biplanas), trisparnis lėktuvas (triplanas). Retais atvejais pasitaiko
+            specifinių konstrukcijų, tokių kaip skrendantis sparnas ar sparnų neturintis skrendantis kūnas. Lėktuvas,
+            skirtas keleiviams gabenti, vadinamas oro laineriu arba keleiviniu lėktuvu. Kariniai ir civiliniai lėktuvai
+            gali būti įvairios paskirties: keleiviniai, krovininiai, mokomieji, specialiosios paskirties (naudojami
+            stichinių nelaimių atveju, gaisrams gesinti, ligoniams ar sužeistiesiems gabenti, geologinės žvalgybos).
+            Civiliniai lėktuvai gali būti sportiniai, žemės ūkio, eksperimentiniai.</p>
+    </div>
+    <div id="fifth" class="section">
+        <h2>Šuo</h2>
+        <img src="suo.jpeg" alt="Šuo" ; width="200px">
+        <p>Šuo – žmogaus prijaukintas gyvūnas jau 14 000 metų. Ir nors su šiuo keturkoju augintiniu bendraujame jau
+            seniai, visada rasime faktų, kuriuos būtų įdomu sužinoti apie mūsų keturkojus augintinius.</p>
+    </div>
+    <div id="sixth" class="section">
+        <h2>Kalnai</h2>
+        <img src="austrijos-kalnai.jpg" alt="Kalnai" ; width="300px">
+        <p>Kalnų slidinėjimas - tiek poilsinis, tiek ir sportinis užsiėmimas, čiuožiant nuo snieguotų kalvų su slidėmis,
+            pritvirtintomis prie kojų. Kalnų slidinėjimo pradžia – 1889 m. Alpių kalnuose. Šis sportas yra populiarus,
+            ypač tose šalyse, kur yra kalnų, sniego, išvystyta slidinėjimo turizmo infrastruktūra. Kalnų slidinėjimo
+            kurortų yra Europos, Šiaurės Amerikos kalnuose, taip pat jų yra ir Australijoje, Naujojoje Zelandijoje,
+            Pietų Amerikos Andų bei Azijos kalnuose.</p>
+    </div>
+    <div id="seventh" class="section">
+        <h2>Grybai</h2>
+        <img src="grybai.jpg" alt="Grybai" ; width="300px">
+        <p>Grybai <i>(Fungi)</i> - nėra nei augalai, nei gyvūnai, bet turi ir vienų, ir kitų organizmų požymių. Jie
+            nuėjo savitą evoliucijos kelią ir suformavo tik jiems būdingą gyvenimo būdą. Grybai eukariotiniai ir
+            heterotrofiniai gyvų organizmų grupė, kurių somatinį kūną sudaro grybiena (micelis) arba pavienė ląstelė.
+            Grybiena sudaryta iš šakotų vamzdelių, kurie vadinami hifais[1]. Grybuose nėra chlorofilo, jie negali
+            neorganinių rūgščių paversti organinėmis, kaip augalai. Vykstant medžiagų apytakos procesams pagamina
+            šlapalą, o jų glikogenas yra krakmolo tipo - tai būdinga tik gyvūnams ar kitiems gyviesiems organizmams.
+            Grybai minta absorbcijos būdu, o dauginasi sporomis.</p>
+    </div>
+    <div id="eighth" class="section">
+        <h2>Kalėdos</h2>
+        <img src="kaledos.jpg" alt="Kalėdos" ; width="300px">
+        <p> Kalėdos arba šventos Kalėdos – senas šaknis turinti žiemos saulėgrįžos, saulės sugrįžimo šventė. Saulės
+            sugrįžimo šventės sparčiai formavosi atsiradus žemdirbystei ir gyvulininkystei. Saulės sugrįžtant būdavo
+            pradedama laukti lapkričio gale, o gruodžio pabaigoje, Saulei „apsigręžus“ – t. y. įvykus solsticijai,
+            atliekamos apeigos, trukdavusios porą savaičių.</p>
+    </div>
 
 </body>
+
 </html>
